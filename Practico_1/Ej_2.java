@@ -1,58 +1,23 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package clase1_introduccion;
+package Practico_1;
 
 /**
  *
  * @author Ernesto
  */
-public class Clase1_Introduccion {
+public class Ej_2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("************* Ejercicio 1 *************");
-        System.out.println("La suma de los numeros impares es:" + sumaImpares());
-        sumaImpares1();
-
         System.out.println("************* Ejercicio 2 *************");
         mostrar(20, 3);
-        
-        System.out.println("************* Ejercicio 4 *************");
-        digitosSeparados(1523);
 
-    }
-
-//Ejercicio 1 
-//Implemente un método que imprima en consola la suma de todos los números impares entre 1 y 50 
-//(inclusive). 
-    //Variante 1
-    public static int sumaImpares() {
-        int suma = 0;
-
-        for (int i = 0; i <= 50; i++) {
-            if (i % 2 != 0) {
-                suma += i;
-            }
-        }
-
-        return suma;
-    }
-
-    //Variante 2
-    public static void sumaImpares1() {
-        int suma = 0;
-
-        for (int i = 0; i <= 50; i++) {
-            if (i % 2 != 0) {
-                suma += i;
-            }
-        }
-        System.out.println("La suma de los numeros impares es:" + suma);
     }
 
 // Ejercicio 2 
@@ -105,18 +70,4 @@ public class Clase1_Introduccion {
 
     }
 
-//Ejercicio 4 
-//Implemente un método que reciba un número entero positivo e imprima en pantalla sus dígitos 
-//por separado. 
-//Pruebe el método con los siguientes valores: 5, 1523, 20, 100000. 
-    public static void digitosSeparados(int num) {
-
-        while (num > 0) {
-            System.out.println(num % 10);
-            num = num / 10;
-        }
-    }
-
 }
-
-// Ejercicio 6
