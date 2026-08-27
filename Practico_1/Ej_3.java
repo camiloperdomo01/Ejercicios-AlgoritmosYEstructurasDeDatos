@@ -16,6 +16,21 @@ public class Ej_3 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("************* Ejercicio 3 *************");
+        mostrarImpares(8);
+
+    }
+
+//    Ejercicio 3 
+//Implemente un método que, dado un número entero N, muestre los primeros N números  
+//impares, comenzando desde 1. 
+    public static void mostrarImpares(int num) {
+        int impar = 1;
+        for (int i = 1; i <= num; i++) {
+            System.out.println("Los impares son: " + impar);
+            {
+                impar += 2;
+            }
+        }
 
     }
 }
